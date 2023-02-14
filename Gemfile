@@ -67,7 +67,11 @@ group :development do
 	# Speed up commands on slow machines / big apps [https://github.com/rails/spring]
 	# gem "spring"
 	gem "rubocop"
+	gem "rubocop-rails-accessibility"
 	gem "rubocop-rails", require: false
+	gem "rubocop-minitest", require: false
+	gem "sevencop", require: false
+	gem "rubocop-gitlab-security", require: false
 end
 
 group :test do

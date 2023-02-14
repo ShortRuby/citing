@@ -2,5 +2,27 @@ inherit_from:
   - "https://www.goodcop.style/rubocop.yml"
   - "https://www.goodcop.style/tabs.yml"
 
+require:
+  - rubocop-rails
+  - rubocop-minitest
+  - rubocop-rails-accessibility
+  - sevencop
+  - rubocop-gitlab-security
+
 AllCops:
   TargetRubyVersion: 3.2
+
+Sevencop/HashElementOrdered:
+  Enabled: true
+
+Sevencop/RailsWhereNot:
+  Enabled: true
+
+Sevencop/RailsSpecificActionName:
+  Enabled: true
+
+Sevencop/RailsDateAndTimeCalculation:
+  Enabled: true
+
+Sevencop/RailsBelongsToOptional:
+  Enabled: true

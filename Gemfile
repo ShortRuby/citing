@@ -72,6 +72,7 @@ group :development do
 	gem "rubocop-minitest", require: false
 	gem "sevencop", require: false
 	gem "rubocop-gitlab-security", require: false
+	gem "rubycritic", require: false
 end
 
 group :test do

@@ -86,3 +86,5 @@ end
 gem "tailwindcss-rails", "~> 2.0"
 
 gem "pg", "~> 1.4"
+
+gem "prosopite", "~> 1.3"

@@ -4,8 +4,16 @@
 # model remove the "{}" from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+one:
+  entryable_type: "DevTo::Article"
+  entryable_id: 1
+  url: "https://newsletter.shortruby.com/p/short-ruby-news-edition-29"
+  created_at: <%= 2.days.ago.to_fs(:db) %>
+  updated_at: <%= Time.current %>
+
+two:
+  entryable_type: "DevTo::Article"
+  entryable_id: 2
+  url: "https://newsletter.shortruby.com/p/edition-28"
+  created_at: <%= 2.days.ago.to_fs(:db) %>
+  updated_at: <%= Time.current %>

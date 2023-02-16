@@ -2,5 +2,14 @@ detectors:
   IrresponsibleModule:
     enabled: false
 
+directories:
+  "db/migrate":
+    FeatureEnvy:
+      enabled: false
+    TooManyStatements:
+      enabled: false
+    UncommunicativeVariableName:
+      enabled: false # this is set on false because 't' from migrations are flagged
+
 exclude_paths:
   - test

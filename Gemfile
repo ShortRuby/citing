@@ -81,6 +81,7 @@ group :test do
 	gem "capybara"
 	gem "selenium-webdriver"
 	gem "webdrivers"
+	gem "minitest-stub_any_instance"
 end
 
 gem "tailwindcss-rails", "~> 2.0"
@@ -88,3 +89,5 @@ gem "tailwindcss-rails", "~> 2.0"
 gem "pg", "~> 1.4"
 
 gem "prosopite", "~> 1.3"
+
+gem "typhoeus", "~> 1.4"

@@ -12,6 +12,9 @@ require:
 AllCops:
   TargetRubyVersion: 3.2
 
+Lint/SymbolConversion:
+  EnforcedStyle: consistent
+
 Sevencop/HashElementOrdered:
   Enabled: true
 

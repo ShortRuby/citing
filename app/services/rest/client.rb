@@ -2,6 +2,8 @@
 
 module Rest
 	class Client
+		USER_AGENT = "ShortRubyClient"
+
 		def initialize(base_url:)
 			@api_url = URI.parse(base_url)
 		end
